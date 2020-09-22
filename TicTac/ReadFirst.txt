@@ -1,0 +1,39 @@
+X and 0           Version 1.0.1
+
+This is my first program(revisited) written in VB, which actually does something, so excuse my 
+programming style . It is just a programming exercise.
+
+
+If you want some explanation of this tangled code here there are a few.
+
+	-The game are played on a grid of buttons which are indexed from 0 to 8
+	-In order to make the calculation easier I declared an array,mat(1 To 3, 1 To 3) to
+	  store the indexes of the buttons.
+	-Since there are only eight possibilities to win the game I declare another array,
+	 mat2(1 To 8,1 To 3) to store the indexes of the buttons in all the eight combinations.
+	-mat3(1 To 8,1 To 3) stores the captions of the buttons at a given stage of the game.
+	-After that, the program count, for each row of  mat3, the X-es, the 0-es and the blanks,
+	and if you don't understand the rest but want to, please let me know.
+
+
+
+
+
+	   mat(1 To 3, 1 To 3)      mat2(1 To 8, 1 To 3)
+ 
+	           |0|1|2|	                  |0|1|2|
+	           |	3|4|5|                      |3|4|5|
+	           |6|7|8|                      |6|7|8|
+				     |0|3|6|
+				     |1|4|7|
+				     |2|5|8|
+				     |0|4|8|
+				     |2|4|6|
+
+
+ Besides you I don't need to thank to anybody because I made the program without help or advices so:  
+
+Thank you for downloading this program!
+
+If you have any comments or if you manage to beat the program, please let me know at: bogcrist@pcnet.ro  .
+                   
